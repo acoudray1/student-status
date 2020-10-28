@@ -1,7 +1,11 @@
 import './App.css';
-import StatusComponent from './main/StatusComponent';
+import StatusComponent from './components/statusComponent/StatusComponent';
+import getStudentsByStatus from './services/StudentService';
+
+getStudentsByStatus();
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
